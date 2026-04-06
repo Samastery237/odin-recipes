@@ -1,0 +1,134 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    line-height: 1.6;
+}
+
+.navbar {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 15%;
+}
+
+.logo {
+    color: #f9faf8;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links a {
+    color: #e5e7eb;
+    text-decoration: none;
+}
+
+.hero {
+    background-color: #1f2937;
+    color: #f9faf8;
+    display: flex;
+    padding: 80px 15%;
+    align-items: center;
+    gap: 50px;
+}
+
+.hero-content {
+    flex: 1;
+}
+
+.hero-content h1 {
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 8px;
+}
+
+.hero-text {
+    font-size: 18px;
+    color: #e5e7eb;
+    margin-bottom: 24px;
+}
+
+.hero-image img {
+    width: 450px;
+    border-radius: 15px;
+}
+
+.btn-signup {
+    background-color: #3882f6;
+    color: white;
+    padding: 10px 32px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.white-section {
+    padding: 60px 15%;
+    text-align: center;
+}
+
+.section-title {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+    margin-bottom: 32px;
+}
+
+.ingredients-list {
+    text-align: left;
+    display: inline-block;
+    background: #f9faf8;
+    padding: 30px 60px;
+    border-radius: 10px;
+    border-left: 10px solid #3882f6;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.grey-section {
+    background-color: #e5e7eb;
+    padding: 60px 15%;
+    text-align: center;
+}
+
+.steps-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.step-card {
+    width: 300px;
+    background: white;
+    padding-bottom: 20px;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05)
+}
+
+.step-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-bottom: 4px solid #3882f6;
+}
+
+.step-card p {
+    padding: 15px;
+    font-size: 14px;
+    color: #1f2937;
+    font-weight: bold;
+}
+
+.footer {
+    background-color: #1f2937;
+    color: #f9faf8;
+    text-align: center;
+    padding: 40px;
+}
